@@ -1,9 +1,9 @@
 def display_board(board)
-  puts " # | # | # "
+  puts "  |  |  "
   puts "-----------"
-  puts " # | # | # "
+  puts "  |  |  "
   puts "-----------"
-  puts " # | # | # "
+  puts "  |  |  "
 end
 def move(board, index, player)
    board[index] = player
